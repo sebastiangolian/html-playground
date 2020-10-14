@@ -1,0 +1,22 @@
+{
+  "name": "html-playground",
+  "version": "1.0.0",
+  "description": "HTML app playground",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-cli serve --config webpack.config.js"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "sebastiangolian@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.0.1-alpha.5",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
